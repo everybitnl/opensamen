@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="OPEN.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.5936521"
+     inkscape:cx="292.25113"
+     inkscape:cy="472.17333"
+     inkscape:window-width="1440"
+     inkscape:window-height="762"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g8692">
+      <g
+         id="g8682">
+        <rect
+           style="fill:#ff0000;stroke-width:0.271784"
+           id="rect8380"
+           width="26.4373"
+           height="5.5293698"
+           x="73.379341"
+           y="121.60027" />
+        <text
+           xml:space="preserve"
+           style="font-size:7.7611px;font-family:'GB18030 Bitmap';-inkscape-font-specification:'GB18030 Bitmap';fill:#000000;stroke-width:0.264583"
+           x="74.471283"
+           y="126.29747"
+           id="text113"><tspan
+             sodipodi:role="line"
+             id="tspan111"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next';stroke-width:0.264583"
+             x="74.471283"
+             y="126.29747"><tspan
+               style="font-weight:bold;fill:#ffffff"
+               id="tspan165">samen</tspan></tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:7.7611px;font-family:'GB18030 Bitmap';-inkscape-font-specification:'GB18030 Bitmap';fill:#000000;stroke-width:0.264583"
+         x="54.224522"
+         y="126.03359"
+         id="text8642"><tspan
+           sodipodi:role="line"
+           id="tspan8640"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next';stroke-width:0.264583"
+           x="54.224522"
+           y="126.03359">open<tspan
+   style="font-weight:bold;fill:#ffffff"
+   id="tspan8638" /></tspan></text>
+    </g>
+  </g>
+</svg>
