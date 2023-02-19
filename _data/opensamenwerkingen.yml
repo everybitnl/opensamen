@@ -1,6 +1,12 @@
 - title: Algoritmeregister
-  description: Ut laoreet leo eu ex tempus efficitur. Suspendisse vulputate, diam a blandit sollicitudin, neque ex aliquet diam, eget sagittis odio libero sit amet turpis. Nulla a odio pharetra diam porttitor volutpat. Praesent finibus leo nunc, ultrices condimentum tortor finibus vitae. Vestibulum commodo non augue eu vestibulum. In hac habitasse platea dictumst. Nulla ultrices ullamcorper mi elementum maximus. Cras a odio elit.
+  description: Overheden willen meer grip krijgen op het gebruik van algoritmes en AI en daar meer transparantie over geven. Onderdeel daarvan is het bijhouden van een algoritmeregister, een overzicht van alle relevante afwegingen die daarbij gemaakt worden.
+  need: De provincie Noord-Brabant werkt momenteel aan een beheertool. Graag werken ze daarbij samen met andere overheden om te komen tot een open, herbruikbare tool.
+  status: loopt
 - title: OpenCatalogi
-  description: Ut laoreet leo eu ex tempus efficitur. Suspendisse vulputate, diam a blandit sollicitudin, neque ex aliquet diam, eget sagittis odio libero sit amet turpis. Nulla a odio pharetra diam porttitor volutpat. Praesent finibus leo nunc, ultrices condimentum tortor finibus vitae. Vestibulum commodo non augue eu vestibulum. In hac habitasse platea dictumst. Nulla ultrices ullamcorper mi elementum maximus. Cras a odio elit.
+  description: Overzicht van de software die gebruikt én gemaakt wordt in de eigen organisatie, dat is waar de Gemeente Rotterdam naar op zoek was. Samen met Common Ground ontwikkelaar Conduction ontwikkelde zij OpenCatalogi (www.opencatalogi.nl), een open source oplossing voor het beheren van het overzicht van gebruikte software, en ervaringen met elkaar delen.
+  need: Voor de volgende stap, een pilot, zijn zij op zoek naar 4 tot 10 gemeenten die mee willen pilotten met het gebruik van deze software en op basis daarvan verder te ontwikkelen.
+  status: loopt
 - title: Dienstverlening Meldingen Openbare Ruimte
-  description: Ut laoreet leo eu ex tempus efficitur. Suspendisse vulputate, diam a blandit sollicitudin, neque ex aliquet diam, eget sagittis odio libero sit amet turpis. Nulla a odio pharetra diam porttitor volutpat. Praesent finibus leo nunc, ultrices condimentum tortor finibus vitae. Vestibulum commodo non augue eu vestibulum. In hac habitasse platea dictumst. Nulla ultrices ullamcorper mi elementum maximus. Cras a odio elit.
+  description: In Rotterdam wordt hard gewerkt aan het verbeteren van de dienstverlening op het gebied van meldingen openbare ruimte. Er wordt pro-actief ingezet op samen organiseren en common ground.
+  need: Daarom komen ze graag in contact met andere gemeenten die samen willen innoveren op het gebied van dienstverlening meldingen openbare ruimte en daarin samen willen optrekken, zowel in softwareontwikkeling als in slimme manieren van organiseren.
+  status: loopt
