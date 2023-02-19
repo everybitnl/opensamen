@@ -1,23 +1,33 @@
+---
+---
 <!DOCTYPE html>
 <html>
     <header>
         <meta name="viewport" content="width=320,initial-scale=1,user-scalable=0" />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link href="style.css" rel="stylesheet">
+        <title>Open samen</title>
     </header>
     <body>
-        <style>
-            html, body {
-                width: 100%;
-                height: 100%;
-            }
-            body {
-                background: url(open-samen.png) center center no-repeat;
-            }
-            @media only screen and (max-width: 800px) {
-                body {
-                    background-size: contain;
-                }
-            }
-        </style>
+        <header>
+            <h2>open samenwerking gezocht in publieke sector digitalisering</h2>
+            <h1><img src="open-samen.png" alt="open samen"></h1>
+            <nav>
+                <a class="btn" href="">Overzicht</a>
+                <a class="btn" href="">Meer informatie</a>
+            </nav>
+        </header>
+        <main>
+            {% for os in site.data.opensamenwerkingen %}
+            <div class="list-item">
+                <img class="list-item-image" src="https://via.placeholder.com/400">
+                <div class="list-item-details">
+                    <h2>{{ os.title }}</h2>
+                    <p>{{ os.description }}</p>
+                    <p><a class="btn" href="">Meer informatie</a></p>
+                </div>
+            </div>
+            {% endfor %}
+        </main>
     </body>
 </html>
