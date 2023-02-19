@@ -3,7 +3,7 @@ layout: default
 ---
 {% for os in site.data.opensamenwerkingen %}
 <div class="list-item">
-    <img class="list-item-image" src="https://via.placeholder.com/400">
+    <div class="list-item-image" style="background: url({{ os.img | default: "https://via.placeholder.com/400" }}) center center no-repeat"></div>
     <div class="list-item-details">
         <h2>{{ os.title }}</h2>
         <p>{{ os.description }}</p>

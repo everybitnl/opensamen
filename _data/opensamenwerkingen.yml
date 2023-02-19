@@ -1,12 +1,20 @@
 - title: Algoritmeregister
   description: Overheden willen meer grip krijgen op het gebruik van algoritmes en AI en daar meer transparantie over geven. Onderdeel daarvan is het bijhouden van een algoritmeregister, een overzicht van alle relevante afwegingen die daarbij gemaakt worden.
   need: De provincie Noord-Brabant werkt momenteel aan een beheertool. Graag werken ze daarbij samen met andere overheden om te komen tot een open, herbruikbare tool.
+  img: https://live.staticflickr.com/8711/16803267158_e200191744_b.jpg
   status: loopt
 - title: OpenCatalogi
   description: Overzicht van de software die gebruikt én gemaakt wordt in de eigen organisatie, dat is waar de Gemeente Rotterdam naar op zoek was. Samen met Common Ground ontwikkelaar Conduction ontwikkelde zij OpenCatalogi (www.opencatalogi.nl), een open source oplossing voor het beheren van het overzicht van gebruikte software, en ervaringen met elkaar delen.
   need: Voor de volgende stap, een pilot, zijn zij op zoek naar 4 tot 10 gemeenten die mee willen pilotten met het gebruik van deze software en op basis daarvan verder te ontwikkelen.
+  img: https://live.staticflickr.com/2625/4084777387_e9af8f62f8_b.jpg
   status: loopt
 - title: Dienstverlening Meldingen Openbare Ruimte
   description: In Rotterdam wordt hard gewerkt aan het verbeteren van de dienstverlening op het gebied van meldingen openbare ruimte. Er wordt pro-actief ingezet op samen organiseren en common ground.
   need: Daarom komen ze graag in contact met andere gemeenten die samen willen innoveren op het gebied van dienstverlening meldingen openbare ruimte en daarin samen willen optrekken, zowel in softwareontwikkeling als in slimme manieren van organiseren.
+  img: https://live.staticflickr.com/4565/37635091594_d45bc13688_b.jpg
+  status: loopt
+- title: NL Design System
+  description: Overheidswebsites die als zodanig herkenbaar zijn en die out of the box voldoen aan de toegankelijkheidseisen. Niet telkens "from scratch" beginnen, maar een vliegende start op basis van het werk van tientallen andere organisaties. Dat is wat NL Design System biedt.
+  need: Dus start je als overheid met een nieuwe website, app of interne tool? Sluit je dan aan bij NL Design Systeem!
+  img: https://live.staticflickr.com/7086/7298695418_cc81008e85_b.jpg
   status: loopt
