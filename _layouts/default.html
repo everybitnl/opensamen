@@ -9,7 +9,9 @@
     <body>
         <header>
             <h2>{{ site.subtitle }}</h2>
-            <h1><img src="/open-samen.png" alt="{{ site.title }}"></h1>
+            <a href="/">
+                <h1><img src="/open-samen.png" alt="{{ site.title }}"></h1>
+            </a>
             {% if page.show-intro %}
                 {% include intro.html %}
             {% endif %}
