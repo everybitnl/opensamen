@@ -1,0 +1,48 @@
+<style>
+    .overlay {
+        width: 100vw;
+        height: 100vh;
+        background: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        opacity: 0.8;
+    }
+    .splash {
+        width: 50vw;
+        background: white;
+        color: #333;
+        font-size: 2em;
+        padding: 1em;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        text-align: center;
+        line-height: 1.4em;
+    }
+</style>
+<div class="overlay" style="display: none"></div>
+<div class="splash" style="display: none">
+    <div style="float: right; color: red; cursor: pointer" onclick="unsplash()">✖</div>
+    <img src="{{ site.img }}" style="max-width: 100%;">
+    <p>Aan deze pagina wordt momenteel gewerkt. Informatie op deze pagina is fictief.</p>
+</div>
+<script>
+    function unsplash() {
+        document.body.style.overflow = "auto";
+        document.getElementsByClassName('overlay')[0].style.display = 'none';
+        document.getElementsByClassName('splash')[0].style.display = 'none';
+    }
+
+    function splash() {
+        document.body.style.overflow = "hidden";
+        document.getElementsByClassName('overlay')[0].style.display = 'block';
+        document.getElementsByClassName('splash')[0].style.display = 'block';
+    }
+
+    setTimeout(splash, 400);
+</script>
