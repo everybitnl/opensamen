@@ -10,7 +10,9 @@
         <header>
             <h2>{{ site.subtitle }}</h2>
             <h1><img src="/open-samen.png" alt="{{ site.title }}"></h1>
-            {% include intro.html %}
+            {% if page.show-intro %}
+                {% include intro.html %}
+            {% endif %}
             <nav>
                 <a class="btn" href="/">Overzicht</a>
                 <a class="btn" href="vragen">Vragen</a>
