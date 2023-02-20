@@ -1,0 +1,12 @@
+{% assign item = include.item %}
+<div class="list-item" {% if include.row-reverse %}style="flex-direction: row-reverse"{% endif %}>
+    <div class="list-item-image" style="background: url({{ item.img | default: "https://via.placeholder.com/400" }}) center center no-repeat"></div>
+    <div class="list-item-details">
+        <h2>{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+        <p>{{ item.need }}</p>
+        {% if include.more-info %}
+        <p><a class="btn" href="{{ item.url }}">Meer informatie</a></p>
+        {% endif %}
+    </div>
+</div>

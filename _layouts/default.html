@@ -3,13 +3,14 @@
     <head>
         <meta name="viewport" content="width=320,initial-scale=1,user-scalable=0" />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <link href="style.css" rel="stylesheet">
-        <title>Open samen</title>
+        <link href="/style.css" rel="stylesheet">
+        {% include social-headers.html %}
     </head>
     <body>
         <header>
-            <h2>open samenwerking gezocht in publieke sector digitalisering</h2>
-            <h1><img src="open-samen.png" alt="open samen"></h1>
+            <h2>{{ site.subtitle }}</h2>
+            <h1><img src="/open-samen.png" alt="{{ site.title }}"></h1>
+            {% include intro.html %}
             <nav>
                 <a class="btn" href="/">Overzicht</a>
                 <a class="btn" href="vragen">Vragen</a>
@@ -21,6 +22,7 @@
         </main>
         <footer>
             <div class="wrapper">
+                <!-- LOGO'S everybit | Tiltshift | Code for NL | Foundation for Public Code -->
                 &copy; 2023 <a href="https://www.everybit.nl">everybit</a> #publictech conceptontwikkeling
             </div>
         </footer>

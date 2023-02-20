@@ -1,18 +1,6 @@
 ---
 layout: default
 ---
-<div class="intro">
-    <em>"Open samenwerking is elk 'systeem van innovatie of productie dat steunt op doelgerichte, maar losjes gecoördineerde deelnemers die samenwerken om een ​​product of dienst van economische waarde te creëren, dat beschikbaar wordt gesteld aan zowel bijdragers als niet-bijdragers'."</em><br>- <a href="https://en.wikipedia.org/wiki/Open_collaboration">Wikipedia</a>
-</div>
-
-{% for os in site.data.opensamenwerkingen %}
-<div class="list-item">
-    <div class="list-item-image" style="background: url({{ os.img | default: "https://via.placeholder.com/400" }}) center center no-repeat"></div>
-    <div class="list-item-details">
-        <h2>{{ os.title }}</h2>
-        <p>{{ os.description }}</p>
-        <p>{{ os.need }}</p>
-        <p><a class="btn" href="">Meer informatie</a></p>
-    </div>
-</div>
+{% for os in site.samenwerkingen %}
+    {% include list-item.html item=os more-info=true %}
 {% endfor %}

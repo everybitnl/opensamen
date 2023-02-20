@@ -40,7 +40,7 @@ footer a {
     font-size: 1.4em;
     background: #EEE;
     padding: 20px;
-    margin: 20px auto 80px;
+    margin: 20px auto 40px;
     border-radius: 2px;
     text-align: center;
 }
@@ -52,10 +52,10 @@ footer a {
 .list-item-image {
     flex: 1;
     filter: grayscale(100%);
+    margin: 20px;
 }
 .list-item-details {
     flex: 1;
-    padding: 20px;
     background: white;
 }
 .btn {

@@ -1,0 +1,20 @@
+title: open samen
+subtitle: open samenwerkingen in publieke digitale transformatie
+img: /open-samen.png
+url: https://www.opensamen.nl
+keywords: open samenwerking, publieke sector, overheid, digitale transformatie, innovatie
+twitter_user: "@jpagroenen"
+quote: If you want to go fast, go alone. If you want to go far, go together.
+description: Open samenwerking is elk 'systeem van innovatie of productie dat steunt op doelgerichte, maar losjes gecoördineerde deelnemers die samenwerken om een ​​product of dienst van economische waarde te creëren, dat beschikbaar wordt gesteld aan zowel bijdragers als niet-bijdragers'.
+
+collections:
+  samenwerkingen:
+    output: true
+    permalink: /samenwerking/:name/
+
+defaults:
+  - scope:
+      type: samenwerkingen
+    values:
+      layout: samenwerking
+      collection: samenwerkingen
