@@ -30,7 +30,19 @@ header p {
     font-size: 1.4em;
 }
 footer {
-    background: #AAAAAA;
+    background: #EEE;
+}
+footer a {
+    color: #111;
+    text-decoration: none;
+}
+.intro {
+    font-size: 1.4em;
+    background: #EEE;
+    padding: 20px;
+    margin: 20px auto 80px;
+    border-radius: 2px;
+    text-align: center;
 }
 .list-item {
     display: flex;
@@ -55,10 +67,6 @@ footer {
     cursor: pointer;
     border-radius: 2px;
     font-size: 1.05em;
-    text-decoration: none;
-}
-footer a {
-    color: white;
     text-decoration: none;
 }
 @media only screen and (max-width: 800px) {
