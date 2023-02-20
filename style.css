@@ -68,6 +68,40 @@ footer a {
     border-radius: 2px;
     font-size: 1.05em;
     text-decoration: none;
+    margin: 2px 0;
+}
+form div {
+    margin-bottom: 10px;
+    display: flex;
+}
+label {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 0;
+    width: 100px;
+}
+input, textarea {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    flex: 1
+}
+textarea {
+    height: 140px;
+}
+@media only screen and (max-width: 400px) {
+    form {
+    }
+    form div {
+        display: block;
+    }
+    label {
+        width: 100%;
+    }
+    input, textarea, button {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 @media only screen and (max-width: 800px) {
     .list-item {
