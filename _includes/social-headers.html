@@ -1,20 +1,31 @@
-<link rel="image_src" href="{{ site.url }}/{{ site.img }}" />
-<link rel="shortcut icon" type="image/png" href="{{ site.url }}/{{ site.img }}" />
-
-<title>{{ site.title }}</title>
-<meta name="title" content="{{ site.title }}" />
-<meta name="description" content="{{ site.subtitle }}" />
-<meta name="keywords" content="{{ site.keywords }}" />
-
+<!-- url -->
 <meta property="og:url" content="{{ site.url }}" />
-<meta property="og:title" name="title" content="{{ site.title }}" />
-<meta property="og:description" name="site.subtitle" content="{{ site.subtitle }}" />
-<meta property="og:image" content="{{ site.url }}/{{ site.img }}" />
-<link rel="image_src" href="{{ site.url }}/{{ site.img }}" />
+
+<!-- title -->
+{% assign title = page.title | default: site.title %}
+<title>{{ title }}</title>
+<meta name="title" content="{{ title }}" />
+<meta property="og:title" name="title" content="{{ title }}" />
+<meta name="twitter:title" content="{{ title }}" />
+
+<!-- image -->
+{% assign image = page.img | default: site.img %}
+<link rel="image_src" href="{{ image }}" />
+<link rel="shortcut icon" type="image/png" href="{{ image }}" />
+<meta property="og:image" content="{{ image }}" />
+<link rel="image_src" href="{{ image }}" />
+<meta name="twitter:image:src" content="{{ image }}" />
+
+<!-- description -->
+{% assign description = page.description | default: description %}
+<meta name="description" content="{{ description }}" />
+<meta property="og:description" name="description" content="{{ description }}" />
+<meta name="twitter:description" content="{{ description }}" />
+
+<!-- keywords -->
+<meta name="keywords" content="{{ site.keywords }}" />
 <meta name="keywords" content="{{ site.keywords }}" />
 
+<!-- twitter specific -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:username" content="{{ site.twitter_user }}" />
-<meta name="twitter:title" content="{{ site.title }}" />
-<meta name="twitter:description" content="{{ site.subtitle }}" />
-<meta name="twitter:image:src" content="{{ site.img }}" />
