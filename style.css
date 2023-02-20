@@ -51,7 +51,7 @@ footer a {
 }
 .list-item-image {
     flex: 1;
-    filter: grayscale(100%);
+    filter: grayscale(100%) blur(0.2px);
     margin: 20px;
 }
 .list-item-details {

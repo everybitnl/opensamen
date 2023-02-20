@@ -5,6 +5,10 @@ layout: default
 
 {{ content }}
 
+{% if page.website %}
+<a href="{{ page.website }}">Bekijk de website</a>
+{% endif %}
+
 {% comment %}
 {% include aanmelden.html %}
 {% endcomment %}
