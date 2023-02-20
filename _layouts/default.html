@@ -13,11 +13,7 @@
             {% if page.show-intro %}
                 {% include intro.html %}
             {% endif %}
-            <nav>
-                <a class="btn" href="/">Overzicht</a>
-                <a class="btn" href="vragen">Vragen</a>
-                <a class="btn" href="aanmelden">Aanmelden</a>
-            </nav>
+            {% include nav.html %}
         </header>
         <main>
             {{ content }}
