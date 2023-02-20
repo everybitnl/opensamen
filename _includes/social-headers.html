@@ -8,12 +8,14 @@
 <meta property="og:title" name="title" content="{{ title }}" />
 <meta name="twitter:title" content="{{ title }}" />
 
+<!-- icon image -->
+<link rel="shortcut icon" type="image/png" href="{{ site.icon }}" />
+<link rel="icon" type="image/png" href="{{ site.icon }}">
+
 <!-- image -->
 {% assign image = page.img | default: site.img %}
 <link rel="image_src" href="{{ image }}" />
-<link rel="shortcut icon" type="image/png" href="{{ image }}" />
 <meta property="og:image" content="{{ image }}" />
-<link rel="image_src" href="{{ image }}" />
 <meta name="twitter:image:src" content="{{ image }}" />
 
 <!-- description -->

@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
-   sodipodi:docname="OPEN.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="open-samen.svg">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
@@ -24,15 +36,18 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="4.5936521"
-     inkscape:cx="292.25113"
-     inkscape:cy="472.17333"
-     inkscape:window-width="1440"
-     inkscape:window-height="762"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:zoom="3.2482026"
+     inkscape:cx="359.04838"
+     inkscape:cy="527.13254"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1920"
+     inkscape:window-y="34"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true" />
   <defs
      id="defs2" />
   <g
@@ -40,43 +55,159 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g8692">
-      <g
-         id="g8682">
-        <rect
-           style="fill:#ff0000;stroke-width:0.271784"
-           id="rect8380"
-           width="26.4373"
-           height="5.5293698"
-           x="73.379341"
-           y="121.60027" />
-        <text
-           xml:space="preserve"
-           style="font-size:7.7611px;font-family:'GB18030 Bitmap';-inkscape-font-specification:'GB18030 Bitmap';fill:#000000;stroke-width:0.264583"
-           x="74.471283"
-           y="126.29747"
-           id="text113"><tspan
-             sodipodi:role="line"
-             id="tspan111"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next';stroke-width:0.264583"
-             x="74.471283"
-             y="126.29747"><tspan
-               style="font-weight:bold;fill:#ffffff"
-               id="tspan165">samen</tspan></tspan></text>
-      </g>
+       id="g889">
+      <rect
+         style="fill:#ffffff;stroke-width:4.42696"
+         id="rect860"
+         width="58.208332"
+         height="15.875"
+         x="51.476913"
+         y="116.12158" />
+      <rect
+         style="fill:#ff0000;stroke-width:0.32183"
+         id="rect8380"
+         width="32.279167"
+         height="6.3499999"
+         x="74.727058"
+         y="121.36388" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;font-family:'GB18030 Bitmap';-inkscape-font-specification:'GB18030 Bitmap';fill:#000000;stroke-width:0.264583"
+         x="76.145226"
+         y="126.81641"
+         id="text113"><tspan
+           sodipodi:role="line"
+           id="tspan111"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;stroke-width:0.264583"
+           x="76.145226"
+           y="126.81641">samen</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:7.7611px;font-family:'GB18030 Bitmap';-inkscape-font-specification:'GB18030 Bitmap';fill:#000000;stroke-width:0.264583"
-         x="54.224522"
-         y="126.03359"
+         x="53.798923"
+         y="126.61338"
          id="text8642"><tspan
            sodipodi:role="line"
            id="tspan8640"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next';stroke-width:0.264583"
-           x="54.224522"
-           y="126.03359">open<tspan
-   style="font-weight:bold;fill:#ffffff"
-   id="tspan8638" /></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;stroke-width:0.264583"
+           x="53.798923"
+           y="126.61338">open</tspan></text>
+    </g>
+    <rect
+       style="fill:#000000;stroke-width:4.33433"
+       id="rect840"
+       width="1.5875"
+       height="6.3499999"
+       x="122.80492"
+       y="107.34018" />
+    <g
+       id="g919"
+       inkscape:export-xdpi="126.99998"
+       inkscape:export-ydpi="126.99998">
+      <g
+         id="g899"
+         transform="matrix(1.166643,0,0,1.1666667,12.591899,-24.201694)"
+         style="fill:#ffffff">
+        <rect
+           style="fill:#ffffff;stroke-width:3.49517"
+           id="rect883"
+           width="24"
+           height="24"
+           x="50"
+           y="140" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.81215px;font-family:'GB18030 Bitmap';-inkscape-font-specification:'GB18030 Bitmap';fill:#ffffff;stroke-width:0.334505"
+           x="49.548641"
+           y="149.09644"
+           id="text887"><tspan
+             sodipodi:role="line"
+             id="tspan885"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;fill:#ffffff;stroke-width:0.334505"
+             x="49.548641"
+             y="149.09644">open</tspan></text>
+        <rect
+           style="fill:#ffffff;stroke-width:2.47146"
+           id="rect889"
+           width="24"
+           height="12"
+           x="50"
+           y="152" />
+        <g
+           id="g897"
+           transform="matrix(0.74351361,0,0,0.74351361,-8.7585826,44.20527)"
+           style="fill:#ffffff">
+          <rect
+             style="fill:#ffffff;stroke-width:0.32183"
+             id="rect891"
+             width="32.279167"
+             height="6.3499999"
+             x="79.028908"
+             y="148.30334" />
+          <text
+             xml:space="preserve"
+             style="font-size:8.46667px;font-family:'GB18030 Bitmap';-inkscape-font-specification:'GB18030 Bitmap';fill:#ffffff;stroke-width:0.264583"
+             x="80.447075"
+             y="153.75587"
+             id="text895"><tspan
+               sodipodi:role="line"
+               id="tspan893"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;stroke-width:0.264583"
+               x="80.447075"
+               y="153.75587">samen</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g881"
+         transform="translate(22.923805,1.1316444)">
+        <rect
+           style="fill:#ffffff;stroke-width:3.49517"
+           id="rect846"
+           width="24"
+           height="24"
+           x="50"
+           y="140" />
+        <text
+           xml:space="preserve"
+           style="font-size:9.81215px;font-family:'GB18030 Bitmap';-inkscape-font-specification:'GB18030 Bitmap';fill:#000000;stroke-width:0.334505"
+           x="49.548641"
+           y="149.09644"
+           id="text856"><tspan
+             sodipodi:role="line"
+             id="tspan854"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;stroke-width:0.334505"
+             x="49.548641"
+             y="149.09644">open</tspan></text>
+        <rect
+           style="fill:#ff0000;stroke-width:2.47146"
+           id="rect871"
+           width="24"
+           height="12"
+           x="50"
+           y="152" />
+        <g
+           id="g869"
+           transform="matrix(0.74351361,0,0,0.74351361,-8.7585826,44.20527)">
+          <rect
+             style="fill:#ff0000;stroke-width:0.32183"
+             id="rect848"
+             width="32.279167"
+             height="6.3499999"
+             x="79.028908"
+             y="148.30334" />
+          <text
+             xml:space="preserve"
+             style="font-size:8.46667px;font-family:'GB18030 Bitmap';-inkscape-font-specification:'GB18030 Bitmap';fill:#000000;stroke-width:0.264583"
+             x="80.447075"
+             y="153.75587"
+             id="text852"><tspan
+               sodipodi:role="line"
+               id="tspan850"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;stroke-width:0.264583"
+               x="80.447075"
+               y="153.75587">samen</tspan></text>
+        </g>
+      </g>
     </g>
   </g>
 </svg>
