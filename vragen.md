@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-## Wat is opensamen.nl?
-opensamen organiseert en promoot open samenwerkingen in publieke digitale transformatie. We werken op basis van _best practices_ aan meer en betere open samenwerkingen tussen overheden onderling en overheden en de samenleving.
+## Wat is _open samen_?
+_Open samen_ organiseert en promoot open samenwerkingen in publieke digitale transformatie. We werken op basis van _best practices_ uit de wereld van open source en open content aan meer en betere open samenwerkingen rondom digitale technologie in de publieke sector.
 
 ## Wat is een open samenwerking?
 Een open samenwerking is samenwerken zoals ook open source en open content projecten dat doen: het woord “open” staat hierbij voor open toegankelijk voor wie mee wil doen, denken of kijken. Richting en doelen worden door de leden van de community samen bepaald, iedereen kan alleen of met anderen eigen initiatieven ontplooien, en resultaten worden beschikbaar gesteld onder een vrije licentie zodat andere communities erop kunnen voortborduren. [1]

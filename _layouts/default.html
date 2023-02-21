@@ -19,6 +19,10 @@
         </header>
         <main>
             {{ content }}
+
+            {% if page.show-contact-form or layout.show-contact-form %}
+            {% include contact-form.html %}
+            {% endif %}
         </main>
         <footer>
             <div class="wrapper">
