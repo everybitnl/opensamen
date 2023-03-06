@@ -6,7 +6,7 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header, main, footer .wrapper {
-    max-width: 800px;
+    max-width: 1080px;
     margin: auto;
     padding: 20px;
 }
@@ -26,9 +26,6 @@ header img {
     width: 100%;
     margin: 20px auto;
 }
-header p {
-    font-size: 1.4em;
-}
 footer {
     background: #EEE;
 }
@@ -37,26 +34,31 @@ footer a {
     text-decoration: none;
 }
 .intro {
-    font-size: 1.4em;
+    font-size: 1rem;
     background: #EEE;
     padding: 20px;
-    margin: 20px auto 40px;
+    margin: 0 0 20px;
     border-radius: 2px;
-    text-align: center;
+}
+.signature {
+    display: flex;
+}
+.signature p {
+    flex: 1;
+}
+.signature img {
+    width: 25%;
 }
 .list-item {
-    display: flex;
     max-width: 800px;
     margin: 0 auto 80px;
 }
 .list-item-image {
-    flex: 1;
     filter: grayscale(100%) blur(0.2px);
-    margin: 20px;
+    min-height: 180px;
 }
-.list-item-details {
-    flex: 1;
-    background: white;
+.list-item img {
+    width: 100%;
 }
 .btn {
     display: inline-block;
@@ -90,6 +92,13 @@ textarea {
     height: 140px;
 }
 @media only screen and (max-width: 400px) {
+    main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content {
+        padding: 20px;
+    }
     form {
     }
     form div {
@@ -102,19 +111,25 @@ textarea {
         width: 100%;
         box-sizing: border-box;
     }
-}
-@media only screen and (max-width: 800px) {
-    .list-item {
+    .signature {
         display: block;
     }
-    .list-item-image {
-        margin: 0;
-        min-height: 180px;
+    .signature img {
+        width: 50%;
     }
-    .list-item img {
-        width: 100%;
+}
+@media only screen and (min-width: 800px) {
+    .flex-wrap {
+        display: flex;
     }
-    .list-item-details {
-        padding: 0
+    .content {
+        flex: 1;
+    }
+    .intro {
+        width: 240px;
+        margin: 0 20px 0 0;
+    }
+    .signature {
+        display: block;
     }
 }

@@ -12,17 +12,19 @@
             <a href="/">
                 <h1><img src="/open-samen.png" alt="{{ site.title }}"></h1>
             </a>
-            {% if page.show-intro %}
-                {% include intro.html %}
-            {% endif %}
             {% include nav.html %}
         </header>
         <main>
-            {{ content }}
+            <div class="flex-wrap">
+                {% include intro.html %}
+                <div class="content">
+                    {{ content }}
 
-            {% if page.show-contact-form or layout.show-contact-form %}
-            {% include contact-form.html %}
-            {% endif %}
+                    {% if page.show-contact-form or layout.show-contact-form %}
+                    {% include contact-form.html %}
+                    {% endif %}
+                </div>
+            </div>
         </main>
         <footer>
             <div class="wrapper">
